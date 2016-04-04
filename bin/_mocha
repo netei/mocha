@@ -331,7 +331,7 @@ if (program.sort) {
 var runner;
 if (program.watch) {
   console.log();
-  hideCursor();
+  // hideCursor();
   process.on('SIGINT', function(){
     showCursor();
     console.log('\n');
